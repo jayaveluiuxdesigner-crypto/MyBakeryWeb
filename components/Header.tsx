@@ -96,7 +96,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenMenu }) => {
               </button>
             ))}
             <a
-              href="tel:+1234567890"
+              href=""
               className="bg-amber-600 text-white py-4 rounded-2xl font-black text-sm tracking-widest hover:bg-amber-500 transition-all"
             >
               CALL TO ORDER

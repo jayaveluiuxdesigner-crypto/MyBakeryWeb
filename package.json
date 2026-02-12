@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jayaveluiuxdesigner-crypto.github.io/MyBakeryWeb",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.563.0",
@@ -19,6 +22,7 @@
     "@testing-library/react": "^16.3.2",
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.1.4",
+    "gh-pages": "^6.3.0",
     "jsdom": "^28.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",

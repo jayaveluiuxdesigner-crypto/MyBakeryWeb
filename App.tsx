@@ -9,6 +9,7 @@ import Testimonial from './components/Testimonial';
 import Booking from './components/Booking';
 import Footer from './components/Footer';
 import FullMenuModal from './components/FullMenuModal';
+import FloatingChat from './components/FloatingChat';
 
 const App: React.FC = () => {
   const [isMenuModalOpen, setIsMenuModalOpen] = useState(false);
@@ -29,6 +30,7 @@ const App: React.FC = () => {
       <Footer />
       
       <FullMenuModal isOpen={isMenuModalOpen} onClose={() => setIsMenuModalOpen(false)} />
+        <FloatingChat/>
     </div>
   );
 };

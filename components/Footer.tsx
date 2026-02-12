@@ -48,17 +48,13 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6">CONTACT</h4>
             <ul className="space-y-4 text-sm">
-              <li className="flex items-start gap-3">
-                <MapPin size={18} className="text-amber-600 shrink-0" />
-                <span>Available at your nearest branch</span>
-              </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-amber-600 shrink-0" />
-                <span>Call to Order Directly</span>
+                <span>+91 6383641534</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-amber-600 shrink-0" />
-                <span>hello@priyasbakes.com</span>
+                <span><a href="mailto:priyas.bakes1@gmail.com">priyas.bakes1@gmail.com</a></span>
               </li>
             </ul>
           </div>
